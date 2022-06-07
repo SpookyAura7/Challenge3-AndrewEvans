@@ -37,7 +37,7 @@ function generatePassword () {
       var numbers = "";
     }
 
-  var specialChar = window.confirm("Would you like characters of the special vari ety in your password? (i.e. @ # $ %)");
+  var specialChar = window.confirm("Would you like characters of the special variety in your password? (i.e. @ # $ %)");
     console.log(specialChar);
     if (specialChar) {
       window.alert("It appears you would enjoy the most special of characters in your super-secure password.");
