@@ -2,7 +2,7 @@
 function generatePassword () {
   /* function to loop back to prompt if answer was unsatisfactory */
   function characterPrompt() {  
-    characterLength = Number(window.prompt("How many characters would you like? You can choose to have one as short as 8 characters, or as long as 128!"));
+    characterLength = Number(window.prompt("How many characters would you like? You can choose to have a password as short as 8 characters, or as long as 128!"));
       if (characterLength>= 8 && characterLength<= 128) {
         console.log(characterLength);
         window.alert("You have selected " + characterLength + "!");
